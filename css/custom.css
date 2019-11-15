@@ -103,3 +103,42 @@ li {
 
 
 
+@media all and (min-width: 990px) {
+    .height-img-square {
+        height: 850px;
+        max-height: 900px;
+    }
+}
+
+br {
+    display: inline-block !important;
+    float: none;
+    position: static;
+ }
+
+
+ @media all and (max-width: 990px) {
+    .overflowyes {
+        overflow: scroll !important;
+    }
+}
+
+
+
+.hmap1 {
+    height: 58vh;
+}
+
+@media all and (max-width: 700px) and (min-width: 500px) {
+    .whyuspad {
+        padding: 0 30px;
+    }
+}
+
+@media all and (max-width: 500px) and (min-width: 300px) {
+    .whyuspad {
+        padding: 0 15px;
+    }
+}
+
+
