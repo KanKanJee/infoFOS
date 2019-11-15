@@ -129,7 +129,7 @@ br {
     height: 58vh;
 }
 
-@media all and (max-width: 700px) and (min-width: 500px) {
+@media all and (max-width: 770px) and (min-width: 500px) {
     .whyuspad {
         padding: 0 30px;
     }
