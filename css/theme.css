@@ -210,6 +210,9 @@ hr.short-thick {
 .semi-bold {
   font-weight: 400 !important;
 }
+.under-bold {
+  font-weight: 200 !important;
+}
 .thin {
   font-weight: 100 !important;
 }
@@ -507,6 +510,8 @@ ul.lead li {
 }
 /*!---------- 4. COLOURS ----------*/
 /*!---------- @hyperblu: #2B87DA; ----------*/
+/*!---------- @dustsrtorm: #E8D1C0; ----------*/
+/*  @wenge: #695F54 */
 .bg-primary {
   background: #2B87DA !important;
 }
@@ -517,10 +522,10 @@ ul.lead li {
   background: #fff;
 }
 .bg-dark {
-  background: #2B87DA;
+  background: #27B9A1;
 }
 .color-body {
-  color: #666;
+  color: #9FC5E5;
 }
 .color-primary {
   color: #2B87DA !important;
@@ -597,7 +602,7 @@ footer.bg-dark li,
   top: 0;
   left: 0;
   background: #292929;
-  opacity: 0.6;
+  opacity: 0.4;
   z-index: 2;
 }
 .overlay-heavy:before {
@@ -645,7 +650,7 @@ footer.bg-dark li,
   z-index: 1;
   background: #292929;
   background-size: cover !important;
-  background-position: 50% 50% !important;
+  /* background-position: 50% 50% !important; */
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -687,7 +692,7 @@ footer.bg-dark li,
 /*!---------- 6. BUTTONS ----------*/
 .btn {
   font-family: "Roboto", sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  border: 2px solid #2B87DA;
+  border: 0px solid #2B87DA;
   padding: 0 26px;
   height: 40px;
   min-width: 150px;
@@ -710,7 +715,7 @@ footer.bg-dark li,
   margin-right: 0;
 }
 .btn:hover {
-  background: #2B87DA;
+  background: #F37748;
   color: #fff;
 }
 .btn-icon {
@@ -748,7 +753,7 @@ footer.bg-dark li,
   min-width: 0;
 }
 .btn-filled {
-  background: #2B87DA;
+  background: #F69051;
   color: #fff;
 }
 .btn-white,
@@ -813,7 +818,7 @@ body.btn-rounded .btn {
   border-color: #fff;
 }
 .bg-primary .btn:hover {
-  background: #fff;
+  background: #1c3041;
   color: #2B87DA;
 }
 /*!---------- 7. NAVIGATION ----------*/
@@ -920,8 +925,8 @@ nav.bg-dark .logo-dark {
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
-  color: #292929;
-  opacity: 0.5;
+  color: #1B1B1B;
+  opacity: 0.8;
   transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -4501,7 +4506,7 @@ video {
   margin-right: 32px;
   cursor: pointer;
   font-family: "Roboto", sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  border: 2px solid #2B87DA;
+  border: 0px solid #2B87DA;
   padding: 0 26px;
   height: 40px;
   min-width: 150px;
@@ -4559,7 +4564,7 @@ video {
   margin-bottom: 0;
 }
 .bg-dark .filters.floating {
-  background: #2B87DA;
+  background: #27B9A1;
 }
 .bg-dark .filters.floating h1,
 .bg-dark .filters.floating h2,
@@ -5270,6 +5275,9 @@ footer.bg-dark a {
   .mb-s-120 {
     margin-bottom: 120px;
   }
+  .mb-s-160 {
+    margin-bottom: 160px;
+  }
 }
 @media all and (max-width: 990px) {
   .mb-sm-0 {
@@ -5316,6 +5324,9 @@ footer.bg-dark a {
   }
   .mb-sm-120 {
     margin-bottom: 120px;
+  }
+  .mb-s-160 {
+    margin-bottom: 160px;
   }
   .mt-sm-0 {
     margin-top: 0 !important;
@@ -5663,5 +5674,16 @@ footer.bg-dark a {
   }
   .pb-xs-240 {
     padding-bottom: 240px !important;
+  }
+}
+@media all and (min-width: 767px) {
+  .mb-smin-160 {
+    margin-bottom: 160px;
+  }
+  .mt-smin-160 {
+    margin-top: 160px;
+  }
+  .mt-smin-80 {
+    margin-top: 80px;
   }
 }
