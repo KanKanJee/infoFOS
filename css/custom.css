@@ -20,7 +20,9 @@ li {
 
 }
 
-
+.dark-reviewer-name {
+    color: #292929;
+}
 
 
 .h1x{ font-size: 72px; line-height: 80px; font-weight: 100; }
